@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-SymbolicName: org.eclipse.jface.text
-Bundle-Version: 3.30.0.qualifier
+Bundle-Version: 3.30.100.qualifier
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Export-Package: 
@@ -12,6 +12,7 @@ Export-Package:
  org.eclipse.jface.internal.text.codemining;x-internal:=true,
  org.eclipse.jface.internal.text.html;x-friends:="org.eclipse.ant.ui, org.eclipse.jdt.ui, org.eclipse.ltk.ui.refactoring, org.eclipse.pde.ui, org.eclipse.ui.editors, org.eclipse.xtext.ui",
  org.eclipse.jface.internal.text.link.contentassist;x-internal:=true,
+ org.eclipse.jface.internal.text.reconciler;x-internal:=true,
  org.eclipse.jface.internal.text.revisions;x-internal:=true,
  org.eclipse.jface.internal.text.source;x-internal:=true,
  org.eclipse.jface.text,
